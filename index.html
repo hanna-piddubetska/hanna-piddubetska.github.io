@@ -3,23 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hanna Piddubetska</title>
+    <title>Hanna Piddubetska | Frontend Student</title>
+    <meta name="description" content="Frontend Development Student portfolio of Hanna Piddubetska.">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Hi, I'm Hanna 👋</h1>
+    <header class="header">
+        <nav class="navigation" aria-label="Main navigation">
+            <a href="#about">About Me</a>
+            <a href="#experience">Experience</a>
+            <a href="#expertise">Core Expertise</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-    <p>Senior QA Engineer with 8+ years of experience.</p>
-    <p>🌱 Learning Frontend Development</p>
-    <p>🎮 Gaming Domain</p>
-    <p>🏢 Playtika</p>
+    <main>
+        <section id="about" class="hero">
+            <img src="assets/photo.jpg" alt="Portrait photo of Hanna Piddubetska">
 
-    <p>📍 Vinnytsia, Ukraine</p>
+            <div class="hero-text">
+                <h1>Hanna Piddubetska</h1>
+                <h2>Frontend Development Student | Quality Assurance Engineer</h2>
+                <p>
+                    I am currently learning frontend development and building web pages with HTML, CSS and AI-assisted tools.
+                    My quality assurance background helps me create products with attention to structure, usability and user experience.
+                </p>
+                <a class="linkedin-button" href="https://www.linkedin.com/in/hanna-motuz-piddubetska-78132214a" target="_blank">LinkedIn Profile</a>
+            </div>
+        </section>
 
-    <h2>Connect with me</h2>
-    <p>
-        <a href="https://www.linkedin.com/in/anna-motuz-piddubetska-78132214a/" target="_blank">
-            LinkedIn Profile
-        </a>
-    </p>
+        <section id="experience" class="card">
+            <h2>Experience</h2>
+
+            <article class="experience-item">
+                <h3>Quality Assurance Software Engineer</h3>
+                <p><strong>Playtika — Slotomania, Jackpot Tour projects</strong></p>
+                <p>09/2023 – 06/2026 | Vinnytsia, Ukraine</p>
+
+                <details>
+                    <summary>Shift-left quality engineering</summary>
+                    <p>
+                        Introduced classification tree testing as part of a shift-left strategy, improving requirement analysis
+                        and enabling early identification of coverage gaps, edge cases and quality risks before development began.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Quality risk management</summary>
+                    <p>
+                        Established a risk-based testing approach to identify, assess and prioritize product risks,
+                        enabling focused testing efforts, improved release predictability and proactive risk mitigation.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Product analytics & KPI improvement</summary>
+                    <p>
+                        Initiated client-side event instrumentation and data-driven quality analysis through Grafana dashboards,
+                        contributing to product KPI improvements and better user behavior visibility.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>AI-driven process optimization</summary>
+                    <p>
+                        Introduced AI agents and AI-assisted workflows that reduced manual effort, accelerated documentation creation
+                        and improved team productivity.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Quality culture & mentorship</summary>
+                    <p>
+                        Mentored new team members and individuals outside the organization interested in software testing.
+                        Promoted knowledge sharing among QA engineers and developers, fostering effective testing practices,
+                        quality awareness and a preventive quality mindset.
+                    </p>
+                </details>
+            </article>
+
+            <article class="experience-item">
+                <h3>Software Test Engineer</h3>
+                <p><strong>DGN-Games — Lucky Time Slots project</strong></p>
+                <p>10/2018 – 03/2023 | Vinnytsia, Ukraine</p>
+            </article>
+
+            <article class="experience-item">
+                <h3>Manual QA Engineer</h3>
+                <p><strong>Astound Commerce — QA Boot Camp</strong></p>
+                <p>04/2018 – 10/2018 | Vinnytsia, Ukraine</p>
+                <p>Testing e-commerce sites.</p>
+            </article>
+        </section>
+
+        <section id="expertise" class="card">
+            <h2>Core Expertise</h2>
+
+            <div class="columns">
+                <div>
+                    <h3>Frontend Development</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Accessibility</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Testing & Quality Engineering</h3>
+
+                    <p><strong>Functional Testing</strong><br>
+                    Web, Mobile, API, Database</p>
+
+                    <p><strong>Non-functional Testing</strong><br>
+                    Usability, Accessibility, Compatibility, Performance Testing</p>
+
+                    <p><strong>Development & Quality Tools</strong><br>
+                    Git, GitHub, Postman, Swagger, Charles Proxy, Jira, Testomat</p>
+
+                    <p><strong>Troubleshooting & Monitoring</strong><br>
+                    Kibana, Elasticsearch, Grafana, Log Analysis</p>
+
+                    <p><strong>Distributed Systems Testing</strong><br>
+                    Microservices Testing, Event-driven Architecture, Kafka Message Verification</p>
+
+                    <p><strong>AI-powered Quality Engineering</strong><br>
+                    Glean, Claude Code, Cursor, AI Agents, LLM Response Evaluation</p>
+
+                    <p><strong>Quality Engineering</strong><br>
+                    Risk-based Testing, Shift-left Testing, Exploratory Testing</p>
+
+                    <p><strong>Product & Business Analysis</strong><br>
+                    Feature Design Review, Acceptance Testing, User Journey Validation, Stakeholder Collaboration</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="card">
+            <h2>Education</h2>
+
+            <article>
+                <h3>Modern Frontend Fundamentals with AI</h3>
+                <p><strong>SoftServe</strong></p>
+                <p>03.06.2026 – Current</p>
+            </article>
+
+            <article>
+                <h3>Frontend Fundamentals</h3>
+                <p><strong>CS Osvita</strong></p>
+                <p>11.11.2025 – 31.03.2026</p>
+            </article>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Contact</h2>
+            <p>Vinnytsia, Ukraine</p>
+            <p>Phone: <a href="tel:+380684674774">+38 (068) 467-47-74</a></p>
+            <p>Email: <a href="mailto:annamotuz510@gmail.com">annamotuz510@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/hanna-motuz-piddubetska-78132214a" target="_blank">linkedin.com/in/hanna-motuz-piddubetska-78132214a</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Hanna Piddubetska</p>
+    </footer>
 </body>
 </html>
